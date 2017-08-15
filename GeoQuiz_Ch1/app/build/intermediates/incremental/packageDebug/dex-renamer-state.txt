@@ -1,0 +1,7 @@
+#Wed Aug 02 00:16:58 CDT 2017
+base.0=/home/sanfer/Documents/LearnAndroid/GeoQuiz/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_ef9e20fad041cbe45c1d67ae3390765316026b84
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=/home/sanfer/Documents/LearnAndroid/GeoQuiz/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_4e1c51f0ed79056d2d8d551fdc87d9a181878ae3/classes.dex
+base.1=/home/sanfer/Documents/LearnAndroid/GeoQuiz/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_4e1c51f0ed79056d2d8d551fdc87d9a181878ae3
+file.0=/home/sanfer/Documents/LearnAndroid/GeoQuiz/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_ef9e20fad041cbe45c1d67ae3390765316026b84/classes.dex
