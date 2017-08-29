@@ -77,6 +77,12 @@ public class CrimeLab {
         }
     }
 
+    public void removeCrime(UUID id) {
+        String whereClause = CrimeTable.Cols.UUID + "=?";
+        String[] whereArgs = new String[] { id.toString() };
+        removeCrimes(whereClause, whereArgs);
+    }
+
     public File getPhotoFile(Crime crime) {
         File filesDir = mContext.getFilesDir();
         return new File(filesDir, crime.getPhotoFilename());
@@ -88,6 +94,10 @@ public class CrimeLab {
 
         mDatabase.update(CrimeTable.NAME, values,
                          CrimeTable.Cols.UUID + " = ?", new String[] { uuidString });
+    }
+
+    private void removeCrimes(String whereClause, String[] whereArgs) {
+        mDatabase.delete(CrimeTable.NAME, whereClause, whereArgs);
     }
 
     private CrimeCursorWrapper queryCrimes(String whereClause, String[] whereArgs) {
